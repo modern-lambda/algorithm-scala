@@ -1,7 +1,7 @@
 package Sorts
 
 object InsertionSort {
-  def insertionSort(array: Array[Int]) : Array[Int] = {
+  def insertionSort(array: Array[Int]): Array[Int] = {
     for (i <- 0 to array.length - 1) {
       val temp : Int = array(i)
       var j = i - 1
