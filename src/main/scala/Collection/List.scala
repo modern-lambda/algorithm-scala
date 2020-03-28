@@ -1,0 +1,5 @@
+package Collection
+
+class List {
+
+}
